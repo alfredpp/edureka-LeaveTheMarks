@@ -4,10 +4,10 @@ var bcrypt=require('bcrypt');
 var SALT_WORK_FACTOR = 10;
 
 
-//var dbURI = 'mongodb://localhost/test';
+//var dbURI = mongodb://leavethemarks:leavethemarks@localhost:27017/leavethemarks;
 
 
-var dbURI = 'mongodb://leavethemarks:leavethemarks@localhost:27017/leavethemarks';
+var dbURI = 'mongodb://leavethemarks:leavethemarks@ds133211.mlab.com:33211/alfred_leavethemarks';
 
 
 mongoose.connect(dbURI);
