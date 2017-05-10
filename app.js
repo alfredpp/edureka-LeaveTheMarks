@@ -46,8 +46,6 @@ app.get('/stories/:story',story.getStory);
 
 app.post('/stories/:slug/saveComment',story.saveComment);
 
-app.get('/techStack',routes.techStack);
-
 app.get('/logout',user.logout);
 
 app.use(function(req, res) {
