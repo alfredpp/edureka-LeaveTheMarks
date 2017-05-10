@@ -15,3 +15,8 @@
 .menus{
     font-size:18px;
 }
+
+.sidebar-nav img.img-circle {
+  width: 220px;
+  background: yellow;
+}
